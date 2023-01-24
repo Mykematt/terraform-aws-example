@@ -4,7 +4,7 @@ This is a template for a module.
 ## Usage
 ~~~
 module "my_ec2_instance" {
-  source = "https://github.com/Mykematt/tf-module-learn.git"
+  source = "github.com/Mykematt/tf-module-learn"
 
   ec2_instance_type   = "t2.micro"
   ec2_instance_name   = "My instance"
