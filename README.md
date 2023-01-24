@@ -2,6 +2,7 @@
 This is a template for a module.
 
 ## Usage
+Sample Usage
 ~~~
 module "my_ec2_instance" {
   source = "github.com/Mykematt/tf-module-learn"
