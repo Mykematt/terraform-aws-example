@@ -11,6 +11,7 @@ variable "ec2_instance_name" {
 
 variable "ec2_ami_id" {
   type        = string
+  default     = "ami-0a313d6098716f372"  
   description = "The AMI ID to use to lauch the instance. NB: These differ between regions."
 }
 
